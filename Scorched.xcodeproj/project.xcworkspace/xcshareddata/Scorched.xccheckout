@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5637453F-B5CF-49BA-8D40-3ACB7AD1E9A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Scorched</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7172C5A0-E47B-47FB-8DAC-E3134A57B3D6</key>
+		<string>https://github.com/markckim/Scorched.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Scorched.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7172C5A0-E47B-47FB-8DAC-E3134A57B3D6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/markckim/Scorched.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7172C5A0-E47B-47FB-8DAC-E3134A57B3D6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7172C5A0-E47B-47FB-8DAC-E3134A57B3D6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Scorched</string>
+		</dict>
+	</array>
+</dict>
+</plist>

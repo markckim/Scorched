@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BD8559671753598200E0D41E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BD8559681753598200E0D41E /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		BD8559691753598200E0D41E /* configure.ac */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		BD85596A1753598200E0D41E /* CREDITS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CREDITS; sourceTree = "<group>"; };
+		BD85596B1753598200E0D41E /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		BD85596C1753598200E0D41E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BD85596D1753598200E0D41E /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BD8559611753598100E0D41E = {
+			isa = PBXGroup;
+			children = (
+				BD8559671753598200E0D41E /* .gitignore */,
+				BD8559681753598200E0D41E /* autogen.sh */,
+				BD8559691753598200E0D41E /* configure.ac */,
+				BD85596A1753598200E0D41E /* CREDITS */,
+				BD85596B1753598200E0D41E /* Makefile.am */,
+				BD85596C1753598200E0D41E /* README.md */,
+				BD85596D1753598200E0D41E /* src */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BD8559661753598200E0D41E /* protobuf-objc */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BD85596E1753598200E0D41E /* Build configuration list for PBXLegacyTarget "protobuf-objc" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/ben86lee/Code/scorched/client/ios/Scorched/libs/protobuf-objc";
+			dependencies = (
+			);
+			name = "protobuf-objc";
+			passBuildSettingsInEnvironment = 1;
+			productName = "protobuf-objc";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		BD8559621753598100E0D41E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BD8559651753598100E0D41E /* Build configuration list for PBXProject "protobuf-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD8559611753598100E0D41E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD8559661753598200E0D41E /* protobuf-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BD8559631753598100E0D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		BD8559641753598100E0D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		BD85596F1753598200E0D41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "protobuf-objc";
+			};
+			name = Debug;
+		};
+		BD8559701753598200E0D41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "protobuf-objc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD8559651753598100E0D41E /* Build configuration list for PBXProject "protobuf-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD8559631753598100E0D41E /* Debug */,
+				BD8559641753598100E0D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD85596E1753598200E0D41E /* Build configuration list for PBXLegacyTarget "protobuf-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD85596F1753598200E0D41E /* Debug */,
+				BD8559701753598200E0D41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD8559621753598100E0D41E /* Project object */;
+}
